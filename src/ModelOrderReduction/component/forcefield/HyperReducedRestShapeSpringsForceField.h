@@ -118,7 +118,6 @@ protected :
     using RestShapeSpringsForceField<DataTypes>::m_ext_indices;
     using RestShapeSpringsForceField<DataTypes>::m_pivots;
 
-    using RestShapeSpringsForceField<DataTypes>::lastUpdatedStep;
 
 private :
 

@@ -129,7 +129,6 @@ void HyperReducedRestShapeSpringsForceField<DataTypes>::bwdInit()
         assert(state);
         matS.resize(state->getMatrixSize(),state->getMatrixSize());
     }
-    lastUpdatedStep = -1.0;
     this->initMOR(d_points.getValue().size(),notMuted());
 }
 
